@@ -4,7 +4,7 @@
 
 [pdfannots](https://github.com/0xabu/pdfannots) is a great tool that extracts annotations from PDF files.
 However, it provides limited support for migrating the annotation data to other software or other formats.
-`Export-PDFAnnots` tries to bridge this gap by providing additional 
+`Export-PDFAnnots` tries to bridge this gap by providing a simple interface to export/convert annotations to common software like [LogSeq](https://logseq.com) or [Notion](https://www.notion.so). 
 
 ## Use Cases
 
@@ -27,3 +27,4 @@ However, it provides limited support for migrating the annotation data to other 
 ## TODOs
 
 - [ ] Add support for Hypothesis
+- [ ] Add command line support via Python Fire
