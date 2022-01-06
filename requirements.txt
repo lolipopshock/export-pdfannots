@@ -1,0 +1,4 @@
+pandas
+pdfannots
+edn_format
+notion_df
