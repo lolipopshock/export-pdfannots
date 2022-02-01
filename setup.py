@@ -14,7 +14,7 @@ def get_requirements(req_file):
 
 
 # A trick from https://github.com/jina-ai/jina/blob/79b302c93b01689e82cf4b52f46522eb7497c404/setup.py#L20
-libinfo_py = os.path.join("src", "notion_df", "__init__.py")
+libinfo_py = os.path.join("src", "export_pdfannots", "__init__.py")
 libinfo_content = open(libinfo_py, "r", encoding="utf8").readlines()
 version_line = [l.strip() for l in libinfo_content if l.startswith("__version__")][0]
 exec(version_line)  # gives __version__
